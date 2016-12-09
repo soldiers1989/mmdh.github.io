@@ -3,6 +3,8 @@ body {background-color: #DCDAD7}
 .list {background: none repeat scroll 0% 0% #036C8A;
     line-height: 48px;
     font-size: 13px;
+	position: fixed;
+	margin:0 22px 22px 22px
 }
 a:link {
 	text-decoration: none;
