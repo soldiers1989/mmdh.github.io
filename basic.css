@@ -1,7 +1,6 @@
 @charset "utf-8";
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0}
 body{font-family:MicroSoft YaHei,Helvetica,Arial,Verdana,Geneva,sans-serif; font-size:14px;}
-table{border-collapse:collapse;border-spacing:0;font-size:inherit}
 h1,h2,h3,h4,h5,h6,strong{font-size:100%;font-weight:bold;}
 input,textarea,select{font-family:inherit;font-size:inherit;outline: none;font-weight:inherit}
 fieldset,img{border:0;vertical-align: middle;}
