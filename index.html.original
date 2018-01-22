@@ -24,6 +24,16 @@
 			</div>
 		</div>
 	</div>
+	
+<script src="/template/dh/ads/dl.js"></script>
+<script src="/template/dh/ads/ads.js"></script>
+<style type="text/css">
+.adbanner div{ height:42px; clear:both;}
+.adbanner li{ width:1050px; height:60px; margin-top:5px;}
+.adbanner li img{ width:1050px; height:60px;}
+</style>
+
+<div class="clear"></div>
     
 <div class="wrap navbar"><!--导航-->
 	<ul>
