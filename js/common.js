@@ -6,7 +6,7 @@ $(function(){
 	$.scrollUp({scrollName:'scrollUp'});
 	$('#nav-plane a').on('click', function(e){ //渚у鑸�
 		var aim = $(e.target).attr('href').slice(1),dom = $('#'+aim),top = dom.offset().top;
-		$('html, body').animate({scrollTop: top-47}, 200,function(){ dom.stop();});
+		$('html, body').animate({scrollTop: top-5}, 200,function(){ dom.stop();});
 		e.preventDefault();
 	});
 
