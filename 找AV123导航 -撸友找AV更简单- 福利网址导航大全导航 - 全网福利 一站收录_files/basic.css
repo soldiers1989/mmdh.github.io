@@ -15,3 +15,6 @@ a{text-decoration:none; cursor: pointer; color:inherit}
 .clearfix{*zoom:1;}
 .clear{ clear:both;}
 .hoverBg:hover{ background-color:#ec6a6a; transition:background-color 0.4s;-moz-transition:background-color 0.4s; -webkit-transition:background-color 0.4s; -o-transition:background-color 0.4s;}
+
+
+

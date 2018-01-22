@@ -73,7 +73,7 @@
                     }, 5000);
                 }
             }
-            // 淇box
+            // 修正box
             var box = $(this).find('.ck-slidebox');
             box.css({
                 'margin-left':-(box.width() / 2)
