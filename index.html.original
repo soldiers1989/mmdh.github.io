@@ -11,6 +11,7 @@
         <script type="text/ecmascript" src="2/common.js.下载"></script>
     <style>
 	body{ background-color:#222222;font-size:12px;}
+	a{text-decoration:none; cursor: pointer; color:inherit;text-align:left;color:#03c; font-weight:400;}
 	.wrap{width:1050px; min-width:1050px; margin:0 auto;}
     .top{ width:100%; height:42px; background:#52B6EF; line-height:42px; position:fixed; top:0; z-index:999; color:#FFF; font-size:12px;}
 	.hoverFFF:hover{ color:#FFF}
@@ -386,9 +387,8 @@
 		
 		<li><a href="http://www.mmmmav.com/" target="_blank" rel="nofollow">万人高清影城<img src="2/hot(1).gif"> </a></li>
 		
-		<li><a href="http://ezhanfuli.com/" target="_blank" rel="nofollow">e站福利（推荐）<img src="2/hot(1).gif"> </a></li>
+		<li><a href="http://ezhanfuli.com/" target="_blank" rel="nofollow">e站福利<img src="2/hot(1).gif"> </a></li>
 		
-		 
 		<div class="clear"></div>
 	</ul>
 	
