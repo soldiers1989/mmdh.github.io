@@ -1,17 +1,17 @@
 @charset "utf-8";
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0}
 body{background-color:#222222;font-family:MicroSoft YaHei,Helvetica,Arial,Verdana,Geneva,sans-serif; font-size:12px;}
-.comment { margin-top:5px; padding:10px; padding-left:10px; border:1px solid #C6D9E7; background:#fff; }
-	.wrap{width:1050px; min-width:1050px; margin:0 auto;}
-    .top{ width:100%; height:42px; background:#52B6EF; line-height:42px; position:fixed; top:0; z-index:999; color:#FFF; font-size:12px;}
-	.logo{ display:block; float:left; width:60px; height:44px; margin-right:10px; background-position:center center; background-repeat:no-repeat; background-size:54px 36px;}
-	.hoverFFF:hover{ color:#FFF}
 table{border-collapse:collapse;border-spacing:0;font-size:inherit}
 h1,h2,h3,h4,h5,h6,strong{font-size:100%;font-weight:bold;}
 input,textarea,select{font-family:inherit;font-size:inherit;outline: none;font-weight:inherit}
 fieldset,img{border:0;vertical-align: middle;}
 li{list-style:none}
 a{text-decoration:none; cursor: pointer; color:inherit;text-align:left;color:#03c; font-weight:400;}
+.comment { margin-top:5px; padding:10px; padding-left:10px; border:1px solid #C6D9E7; background:#fff; }
+.wrap{width:1050px; min-width:1050px; margin:0 auto;}
+.top{ width:100%; height:42px; background:#52B6EF; line-height:42px; position:fixed; top:0; z-index:999; color:#FFF; font-size:12px;}
+.logo{ display:block; float:left; width:60px; height:44px; margin-right:10px; background-position:center center; background-repeat:no-repeat; background-size:54px 36px;}
+.hoverFFF:hover{ color:#FFF}
 .mtop{margin-top:10px;}
 .left{float:left;}
 .right{float:right;}

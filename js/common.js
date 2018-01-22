@@ -4,13 +4,13 @@
 !function($){function ScrollSpy(element,options){var process=$.proxy(this.process,this),$element=$(element).is("body")?$(window):$(element),href;this.options=$.extend({},$.fn.scrollspy.defaults,options);this.$scrollElement=$element.on("scroll.scroll.data-api",process);this.selector=(this.options.target||((href=$(element).attr("href"))&&href.replace(/.*(?=#[^\s]+$)/,""))||"")+" ul li > a";this.$body=$("body").on("click.scroll.data-api",this.selector,process);this.refresh();this.process()}ScrollSpy.prototype={constructor:ScrollSpy,refresh:function(){this.targets=this.$body.find(this.selector).map(function(){var href=$(this).attr("href");return/^#\w/.test(href)&&$(href).length?href:null});this.offsets=$.map(this.targets,function(id){return $(id).position().top})},process:function(){var scrollTop=this.$scrollElement.scrollTop()+this.options.offset,offsets=this.offsets,targets=this.targets,activeTarget=this.activeTarget,i;for(i=offsets.length;i--;){activeTarget!=targets[i]&&scrollTop>=offsets[i]&&(!offsets[i+1]||scrollTop<=offsets[i+1])&&this.activate(targets[i])}},activate:function(target){var active;this.activeTarget=target;this.$body.find(this.selector).parent(".active").removeClass("active");active=this.$body.find(this.selector+'[href="'+target+'"]').parent("li").addClass("active");if(active.parent(".dropdown-menu")){active.closest("li.dropdown").addClass("active")}}};$.fn.scrollspy=function(option){return this.each(function(){var $this=$(this),data=$this.data("scrollspy"),options=typeof option=="object"&&option;if(!data){$this.data("scrollspy",(data=new ScrollSpy(this,options)))}if(typeof option=="string"){data[option]()}})};$.fn.scrollspy.Constructor=ScrollSpy;$.fn.scrollspy.defaults={offset:10};$(function(){$('[data-spy="scroll"]').each(function(){var $spy=$(this);$spy.scrollspy($spy.data())})})}(window.jQuery);
 $(function(){
 	$.scrollUp({scrollName:'scrollUp'});
-	$('#nav-plane a').on('click', function(e){ //渚у鑸�
+	$('#nav-plane a').on('click', function(e){ //侧导航
 		var aim = $(e.target).attr('href').slice(1),dom = $('#'+aim),top = dom.offset().top;
-		$('html, body').animate({scrollTop: top-5}, 200,function(){ dom.stop();});
+		$('html, body').animate({scrollTop: top-47}, 200,function(){ dom.stop();});
 		e.preventDefault();
 	});
 
-	//鎼滅储
+	//搜索
 	var lists = $('#search-opt .list');
 	$('#search-img').click(function(){
 		lists.slideDown(300);
@@ -28,7 +28,7 @@ $(function(){
 		e.preventDefault();
 	})
 })
-//鎼滆棌鏈珯
+//搜藏本站
 function addFav(url,title){
 	try {
 		if(window.sidebar && window.sidebar.addPanel) {
@@ -39,7 +39,7 @@ function addFav(url,title){
 			throw 'NOT_SUPPORTED';
 		}
 	}catch(err) {
-		alert('璇锋寜蹇嵎閿瓹trl+D杩涜鏀惰棌锛�');
+		alert('请按快捷键Ctrl+D进行收藏！');
 	}
 }
 function countClick(url){
